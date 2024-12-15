@@ -1,0 +1,5 @@
+rootProject.name = 'vcim2315-idde'
+
+include 'vcim2315-web', 'vcim2315-desktop', 'vcim2315-backend'
+include 'vcim2315-spring'
+

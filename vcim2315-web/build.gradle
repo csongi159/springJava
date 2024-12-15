@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':vcim2315-backend')
+    compileOnly group: 'jakarta.servlet', name: 'jakarta.servlet-api', version: '6.0.0'
+
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.15.3'
+}
+
+tasks.war {
+    archiveFileName = 'vcim2315-web.war'
+}

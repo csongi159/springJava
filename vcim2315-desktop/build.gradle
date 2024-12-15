@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'edu.bbte.idde.vcim2315.Main' // A desktop alkalmazás fő osztálya
+
+dependencies {
+    implementation project(':vcim2315-backend') // A backend modulra való hivatkozás
+    // További desktop specifikus függőségek
+}

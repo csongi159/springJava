@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Container for page content */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Header row styles */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hover effect for rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e2f7e2;
+}
+
+/* Cell styling */
+td {
+    color: #555;
+}
+
+/* Table borders */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* Form Container */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    width: 300px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
